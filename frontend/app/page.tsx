@@ -98,7 +98,7 @@ export default function Home() {
 
   // --- LOGIC: CREATE ESCROW ---
   const createEscrow = async () => {  
-    if (!sellerAddress || !polAmount) return MySwal.fire({ icon: 'warning', title: t.incompleteData });
+    if (!sellerAddress || !polAmount) return MySwal.fire({ icon: 'warning', title: 'Please fill all fields' });
     if (!isAddress(sellerAddress)) return MySwal.fire({ icon: 'error', title: 'Invalid Seller Address' });
 
     setIsLoading(true);
