@@ -19,6 +19,7 @@ export const content = {
     step2D: "The seller will be notified in real-time to ship your item.",
     step3T: "Release Funds",
     step3D: "Click 'Release' only after you've received the item as described.",
+    incompleteData: "Please fill in all fields",
     footerNote: "Using Polygon blockchain technology to ensure 100% transparency and ultra-low fees."
   },
   id: {
@@ -41,6 +42,7 @@ export const content = {
     step2D: "Seller akan diberitahu secara real-time untuk mengirim barang.",
     step3T: "Pelepasan Dana",
     step3D: "Klik 'Release' hanya jika barang sudah Anda terima sesuai deskripsi.",
+    incompleteData: "Mohon isi semua kolom",
     footerNote: "Menggunakan teknologi blockchain Polygon untuk memastikan transparansi 100% dan biaya sangat murah."
   }
 };
